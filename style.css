@@ -436,8 +436,19 @@ h3{
     height: auto; 
 }
 
+.image {
+    width: 20%;
+    max-width: 500%;
+    height: auto;
+    max-height: 50%; /* Keep the image within its container height */
+    margin: 0 auto; /* Center the image horizontally */
+}
 
-
+.image1 {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử chứa */
+    display: block; /* Để giữ ảnh ở giữa theo chiều ngang */
+    margin: 0 auto; /* Để căn giữa theo chiều ngang */
+  }
 
 
 .blog-left h2{
