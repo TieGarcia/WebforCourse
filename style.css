@@ -390,19 +390,45 @@ h3{
     color: #fff;
 }
 /*---blog content*/
-.blog-content{
+.blog-content {
     width: 80%;
-    margin: auto;
+    margin: 0 auto; /* Center horizontally */
     padding: 60px 0;
-}
-.blog-left{
-    flex-basis: 65%;
+    display: flex; /* Center vertically */
+    align-items: center; /* Center vertically */
+  }
+  .blog-left {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: left; /* Center text content */
+    padding: 20px;
+  }
 
-}
 .blog-left img{
 
     width: 100%;
 }
+.image-container {
+    display: flex; /* Hiển thị các ảnh cùng một hàng */
+}
+
+.small-image {
+    width: 50%; /* 50% của chiều rộng cho mỗi ảnh */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của container */
+    height: auto; /* Duy trì tỷ lệ khung hình 3:4 */
+}
+
+.small-image {
+    width: 75%; /* 3:4 aspect ratio */
+    max-width: 50%; /* Ensure the images don't exceed their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+    max-height: 1000px; /* Limit the maximum height to 400px (adjust this value as needed) */
+}
+
+
+
+
+
 .blog-left h2{
     color: #222;
     font-weight: 600;
@@ -463,7 +489,7 @@ h3{
     padding: 80px 0;
 }
 .location iframe{
-    width: 160%;
+    width: 100%;
 }
 .contract-us{
     width: 80%;
