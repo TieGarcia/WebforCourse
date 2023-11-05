@@ -409,20 +409,31 @@ h3{
     width: 100%;
 }
 .image-container {
-    display: flex; /* Hiển thị các ảnh cùng một hàng */
+    display: flex; 
 }
 
 .small-image {
-    width: 50%; /* 50% của chiều rộng cho mỗi ảnh */
-    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của container */
-    height: auto; /* Duy trì tỷ lệ khung hình 3:4 */
+    width: 50%; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 .small-image {
-    width: 75%; /* 3:4 aspect ratio */
-    max-width: 50%; /* Ensure the images don't exceed their container */
-    height: auto; /* Maintain the aspect ratio of the images */
-    max-height: 1000px; /* Limit the maximum height to 400px (adjust this value as needed) */
+    width: 75%; 
+    max-width: 50%; 
+    height: auto; 
+    max-height: 1000px; 
+}
+
+.image-container1 {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.image {
+    width: 50%; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 
