@@ -537,3 +537,14 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Điều này giúp video lấp đầy chiều cao của trang */
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
