@@ -392,7 +392,7 @@ h3{
 /*---blog content*/
 .blog-content {
     width: 80%;
-    margin: 0 auto; /* Center horizontally */
+    margin: auto;
     padding: 60px 0;
     display: flex; /* Center vertically */
     align-items: center; /* Center vertically */
@@ -406,8 +406,7 @@ h3{
 
 .blog-left img{
 
-    width:70%;
-    height: 30%;
+    width:100%;
     
 }
 .image-container {
