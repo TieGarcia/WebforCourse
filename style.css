@@ -283,16 +283,17 @@ h3 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding-left: 50px;
     padding-right: 50px;
-
-
+    transition: background-color 0.3s, transform 0.3s;
+}
+.facilities-col:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
 }
 
 .facilities-col img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-
-
 }
 
 .facilities-col p {
@@ -304,6 +305,7 @@ h3 {
 }
 .facilities-col a {
     text-decoration: none;
+    color: #333;
 }
 
 
@@ -349,7 +351,7 @@ h3 {
 }
 
 .footer h4 {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     margin-top: 20px;
     font-weight: 600;
 }
@@ -475,18 +477,13 @@ h3 {
     max-width: 500%;
     height: auto;
     max-height: 50%;
-    /* Keep the image within its container height */
     margin: 0 auto;
-    /* Center the image horizontally */
 }
 
 .image1 {
     max-width: 100%;
-    /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử chứa */
     display: block;
-    /* Để giữ ảnh ở giữa theo chiều ngang */
     margin: 0 auto;
-    /* Để căn giữa theo chiều ngang */
 }
 
 
@@ -567,7 +564,15 @@ h3 {
 
 .contract-us {
     width: 80%;
+    margin: 0;
+    margin-right: auto;
 }
+.contract-col div h5,
+.contract-col div p {
+    margin: 0;
+    text-align: left;
+}
+
 
 .contract-col {
     flex-basis: 48%;
@@ -589,6 +594,9 @@ h3 {
 
 .contract-col div p {
     padding: 0;
+}
+.footer h4 {
+    margin-bottom: 10px;
 }
 
 .contract-col div h5 {
